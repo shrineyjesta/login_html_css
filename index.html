@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login_mini.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header class="header">
+    <nav class="nav">
+<div class="hedrer">
+<ul>
+   <button class="button" id="fr">Login</button>
+</ul>
+</nav>
+</div>
+</header>
+<section class="h">
+<div class="drop">
+    <div class="login_box">
+        <div  class="inlogin">
+           <label class="cm"> <i class="fa-solid fa-xmark fa-xl form_close"></i></label>
+   
+           <h1 class="wb">WELCOME BACK!</h1>
+           <form >
+               
+   <label class="ep">Email Address</label><br>
+   
+   <input class="tp" type="text" placeholder="Enter your email address" required><br>
+   <label class="ep" >Password</label>
+   <br>
+   <input class="tp" type="password"placeholder="Password" required>
+   <br>
+   <input type="checkbox">
+   <label class="rem">Remember me</label>
+   
+   <a href="#" class="fp">Forgot Password ?</a><br>
+   <div><input class="lb" type="submit" onclick="touch()" value="Login"></div>
+   <h4 class="or"> (or)<br>continue with
+   </h4>  
+   <a href="#" class="ic"><i class="fa-brands fa-google fa-2xl center"></i></a> 
+   <a href="#" class="ic"><i class="fa-brands fa-github fa-2xl center"></i></a>
+   <a href="#" class="ic"><i class="fa-brands fa-linkedin fa-2xl center"></i></a>
+   <br>
+   
+   
+   <label class="sp">Don't have an account?</label><a href="#">Sign Up</a>
+   </form>
+   <div id="res">
+   
+   </div>
+    </div>
+      </div> 
+      <div id="res">
+
+      </div>
+</div>
+</section>
+<script>
+   const f=document.querySelector("#fr"),
+    c=document.querySelector(".form_close"),
+    h=document.querySelector(".h"),
+    drop=document.querySelector(".drop");
+
+    f.addEventListener("click",()=>h.classList.add("show"));
+    c.addEventListener("click",()=>h.classList.remove("show"));
+   
+</script>
+</body>
+</html>

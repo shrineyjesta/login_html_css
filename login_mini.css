@@ -1,0 +1,98 @@
+body{
+    margin:0px;
+    
+}
+.login_box{
+    width:380px;
+    height:490px;
+    border-radius:30px;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    color:rgb(167, 6, 105);
+background-color: white;
+    border:solid;
+    border-color:rgb(134, 133, 134);
+
+}
+.cm{
+    float:right;
+    padding-right: 10px;
+    padding-top: 5px;
+
+}
+.fp:hover{
+    color: rgb(92, 90, 92);
+}
+.wb{
+    font-size:26px;
+    line-height:50px;
+    text-align: center;
+}
+.tp{
+    width:80%;
+    margin-bottom:10px;
+border:none;
+height:25px;
+border-bottom: solid 2px black;
+font-size:17px;
+}
+.inlogin {    
+padding:10px;
+}
+.ep{
+    line-height:38px;
+    font-size:20px;
+    font-weight: bold;
+   
+}
+.lb{
+    width:100%;
+    padding:10px;
+    background-color:rgb(167, 6, 105) ;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: white;
+    margin-top: 15px;
+}
+.lb:hover{
+    cursor: pointer;
+    background-color: rgb(92, 90, 92);
+}
+.fp{
+    text-decoration: none;
+    float:right;
+    font-size: large;
+    padding-right: 20px;
+    color:rgb(167, 6, 105);
+}
+.or{
+    text-align: center;
+    line-height: 20px;
+}
+.rem{
+    font-size: large;
+
+}
+.center{
+    text-align: center;
+    
+}
+.fa-brands{
+    
+    margin-right:20px;
+    padding-left: 50px;}
+    .sp{
+        line-height: 60px;
+        padding-left:15px;
+    }   
+    .ic{
+        text-decoration: none;
+        color:rgb(167, 6, 105);
+    }
+    .ic:hover{
+        color: rgb(92, 90, 92);
+    }
